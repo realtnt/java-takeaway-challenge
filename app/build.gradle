@@ -28,6 +28,9 @@ dependencies {
 
     // Twilio
     implementation group: "com.twilio.sdk", name: "twilio", version: "8.31.0"
+
+    // Dotenv
+    implementation group: 'io.github.cdimascio', name: 'java-dotenv', version: '5.2.2'
 }
 
 application {
